@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MADlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\patch\;CMake Files\src\bin\;CMake Files\src\config\;CMake Files\src\madpack\;CMake Files\src\ports\;CMake Files\src\ports\monetdb\;CMake Files\src\ports\monetdb\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\third_party\;CMake Files\cmake-build-debug\third_party\tmp\;CMake Files\cmake-build-debug\deploy\;CMake Files\doc\;CMake Files\doc\etc\;CMake Files\doc\design\;CMake Files\deploy\;CMake Files\deploy\PackageMaker\;CMake Files\deploy\PGXN\;CMake Files\deploy\RPM\;CMake Files\deploy\DEB\;CMake Files\deploy\gppkg\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pythonFiles">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 pythonFiles"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EP_eigen">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 EP_eigen"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EP_pyxb">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 EP_pyxb"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlFiles">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 sqlFiles"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="madlibPatches">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src/patch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/patch/Makefile&quot;  VERBOSE=1 madlibPatches"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/patch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/patch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/patch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binaryFiles">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 binaryFiles"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="configFiles">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src/config"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/config/Makefile&quot;  VERBOSE=1 configFiles"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/config/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/config/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/config/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="madpackFiles">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src/madpack"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/madpack/Makefile&quot;  VERBOSE=1 madpackFiles"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/madpack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/madpack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/madpack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monetd-extension">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 monetd-extension"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monetdb-extension-install">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 monetdb-extension-install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlFiles_monetdb">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 sqlFiles_monetdb"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monetdb-extension-clean">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 monetdb-extension-clean"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/src/ports/monetdb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pgxn">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/deploy/PGXN"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/deploy/PGXN/Makefile&quot;  VERBOSE=1 pgxn"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/deploy/PGXN/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/deploy/PGXN/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/deploy/PGXN/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gppkg">
+				<Option working_dir="/home/panagiotis/madlib/cmake-build-debug/deploy/gppkg"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/deploy/gppkg/Makefile&quot;  VERBOSE=1 gppkg"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/deploy/gppkg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/deploy/gppkg/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/panagiotis/madlib/cmake-build-debug/deploy/gppkg/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/panagiotis/madlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake/LinuxUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake/OSXUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake/Options.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake/Utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/patch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\patch\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/bin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/config/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\config\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/madpack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\madpack\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/ports/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ports\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/ports/monetdb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ports\monetdb\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/ports/monetdb/cmake/FindMonetDB.cmake">
+			<Option virtualFolder="CMake Files\src\ports\monetdb\cmake\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/src/ports/monetdb/cmake/MonetDBUtils.cmake">
+			<Option virtualFolder="CMake Files\src\ports\monetdb\cmake\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake-build-debug/third_party/tmp/EP_eigen-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\third_party\tmp\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake-build-debug/third_party/tmp/EP_pyxb-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\third_party\tmp\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake-build-debug/deploy/Component_Greenplum.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\deploy\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake-build-debug/deploy/Component_MonetDB.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\deploy\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/cmake-build-debug/deploy/Component_PostgreSQL.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\deploy\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/doc/mainpage.dox.in">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/doc/etc/DoxygenLayout.xml">
+			<Option virtualFolder="CMake Files\doc\etc\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/doc/etc/header.html">
+			<Option virtualFolder="CMake Files\doc\etc\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/doc/etc/madlib_extra.css">
+			<Option virtualFolder="CMake Files\doc\etc\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/doc/design/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\design\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deploy\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/PackageMaker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deploy\PackageMaker\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/PGXN/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deploy\PGXN\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/PGXN/META.json.in">
+			<Option virtualFolder="CMake Files\deploy\PGXN\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/PGXN/ReadMe.txt">
+			<Option virtualFolder="CMake Files\deploy\PGXN\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/PGXN/generate_package.sh.in">
+			<Option virtualFolder="CMake Files\deploy\PGXN\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/PGXN/zipignore.in">
+			<Option virtualFolder="CMake Files\deploy\PGXN\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/RPM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deploy\RPM\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/DEB/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deploy\DEB\"/>
+		</Unit>
+		<Unit filename="/home/panagiotis/madlib/deploy/gppkg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deploy\gppkg\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

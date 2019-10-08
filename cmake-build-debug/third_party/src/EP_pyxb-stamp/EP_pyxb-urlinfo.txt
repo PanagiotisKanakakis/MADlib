@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://sourceforge.net/projects/pyxb/files/PyXB-1.2.6.tar.gz'
+tag='MD5=4303573fc7094ce4664c5b71cd4bdb48'

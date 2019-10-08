@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/src/CMakeFiles/EP_pyxb"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/src/CMakeFiles/EP_pyxb.rule"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/src/CMakeFiles/EP_pyxb-complete.rule"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/third_party/src/EP_pyxb-stamp/EP_pyxb-install.rule"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/third_party/src/EP_pyxb-stamp/EP_pyxb-mkdir.rule"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/third_party/src/EP_pyxb-stamp/EP_pyxb-download.rule"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/third_party/src/EP_pyxb-stamp/EP_pyxb-update.rule"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/third_party/src/EP_pyxb-stamp/EP_pyxb-patch.rule"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/third_party/src/EP_pyxb-stamp/EP_pyxb-configure.rule"
+		},
+		{
+			"file" : "/home/panagiotis/madlib/cmake-build-debug/third_party/src/EP_pyxb-stamp/EP_pyxb-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_pyxb"
+		],
+		"name" : "EP_pyxb"
+	}
+}

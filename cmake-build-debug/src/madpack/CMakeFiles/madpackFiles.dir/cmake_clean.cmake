@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/madpackFiles"
+  "__init__.py"
+  "argparse.py"
+  "changelist_1.10.0_1.11.yaml"
+  "changelist_1.11_1.12.yaml"
+  "changelist_1.12_1.13.yaml"
+  "changelist_1.13_1.14.yaml"
+  "changelist_1.14_1.15.yaml"
+  "changelist_1.15.1_1.16.yaml"
+  "changelist_1.15_1.15.1.yaml"
+  "changelist_1.9.1_1.10.0.yaml"
+  "configyml.py"
+  "create_changelist.py"
+  "madpack.py"
+  "sort-module.py"
+  "upgrade_util.py"
+  "utilities.py"
+  "yaml/__init__.py"
+  "yaml/composer.py"
+  "yaml/constructor.py"
+  "yaml/cyaml.py"
+  "yaml/dumper.py"
+  "yaml/emitter.py"
+  "yaml/error.py"
+  "yaml/events.py"
+  "yaml/loader.py"
+  "yaml/nodes.py"
+  "yaml/parser.py"
+  "yaml/reader.py"
+  "yaml/representer.py"
+  "yaml/resolver.py"
+  "yaml/scanner.py"
+  "yaml/serializer.py"
+  "yaml/tokens.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/madpackFiles.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,5 @@
+default_version = '1.16.0'
+comment = 'A scalable in-database analytics library'
+relocatable = false
+module_pathname = '$libdir/libmadlib.so'
+requires = 'plpythonu'
